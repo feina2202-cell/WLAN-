@@ -4,7 +4,24 @@ Schritt-für-Schritt-Anleitung für die FRITZ!Box 7530 AX (Wi-Fi 6, Dualband 2,4
 Die Menüpfade gelten für aktuelle FRITZ!OS-Versionen. Je nach Version heißen einzelne Punkte leicht anders oder
 erscheinen erst nach Umschalten auf die **erweiterte Ansicht** (Menü unten links bzw. „Ansicht: Erweitert“).
 
-Benutzeroberfläche: <http://fritz.box> (oder `http://192.168.178.1`) im Browser eines verbundenen Geräts öffnen.
+Benutzeroberfläche: <http://fritz.box> im Browser eines verbundenen Geräts öffnen. Funktioniert das nicht, die
+Router-Adresse aus den WLAN-Details des Geräts verwenden (iPhone: Einstellungen › WLAN › ⓘ › „Router“), ab Werk
+`192.168.178.1`.
+
+> **Router-Adresse 10.0.0.138?** Das ist die typische Adresse eines **A1-Modems**. Erscheint unter dieser Adresse
+> eine A1-Oberfläche statt der FRITZ!Box, ist das A1-Modem der eigentliche Router und die FRITZ!Box hängt dahinter
+> (doppelter Router bzw. „doppeltes NAT“). Dann gilt:
+> - Funken **beide** Geräte ein WLAN, stören sie sich gegenseitig. Das WLAN am A1-Modem abschalten oder
+>   zumindest auf andere Kanäle legen.
+> - Die FRITZ!Box am besten als **IP-Client** betreiben (Internet › Zugangsdaten › „Vorhandene Verbindung über
+>   LAN“ bzw. „Vorhandener Zugang über LAN“), damit es nur ein Heimnetz gibt; oder das A1-Modem in den
+>   **Bridge-Modus** versetzen lassen (A1-Kundenservice), damit die FRITZ!Box alleiniger Router ist.
+>
+> Erscheint dagegen die FRITZ!Box-Oberfläche, wurde ihr Adressbereich nur geändert; dann ist alles in Ordnung.
+
+**WLAN-Scan mit dem iPhone:** Die App **AirPort-Dienstprogramm** (Apple, kostenlos) installieren, dann in
+Einstellungen › Apps › AirPort-Dienstprogramm den **WLAN-Scanner** aktivieren. In der App „WLAN-Scan“ zeigt
+sie alle Netze der Umgebung mit Kanal und Signalstärke (RSSI) an.
 
 ## 0. Sicherheit zuerst
 
