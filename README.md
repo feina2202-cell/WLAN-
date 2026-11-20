@@ -2,6 +2,8 @@
 
 Anleitung und Werkzeuge, um ein Heim-WLAN schneller, stabiler und sicherer zu machen.
 
+Gerätespezifisch: [FRITZ!Box 7530 AX](docs/fritzbox-7530-ax.md)
+
 - [Schnellstart](#schnellstart)
 - [1. Ist-Zustand messen](#1-ist-zustand-messen)
 - [2. Standort des Routers](#2-standort-des-routers)
