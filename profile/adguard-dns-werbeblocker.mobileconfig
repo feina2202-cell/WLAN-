@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://dns.adguard-dns.com/dns-query</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>94.140.14.14</string>
+					<string>94.140.15.15</string>
+					<string>2a10:50c0::ad1:ff</string>
+					<string>2a10:50c0::ad2:ff</string>
+				</array>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Verschluesseltes DNS (DNS-over-HTTPS) ueber AdGuard DNS. Blockiert Werbung, Tracker und bekannte Schadseiten systemweit.</string>
+			<key>PayloadDisplayName</key>
+			<string>AdGuard DNS (Werbe- und Trackerblocker)</string>
+			<key>PayloadIdentifier</key>
+			<string>local.wlan.dns.adguard.08742092-17BC-4C5D-BA7B-5342A2F5D709</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>08742092-17BC-4C5D-BA7B-5342A2F5D709</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Leitet alle DNS-Anfragen verschluesselt an AdGuard DNS. Werbung und Tracker werden in allen Apps und Browsern blockiert. Entfernen: Einstellungen &gt; Allgemein &gt; VPN und Geraeteverwaltung.</string>
+	<key>PayloadDisplayName</key>
+	<string>Werbe- und Trackerblocker (DNS)</string>
+	<key>PayloadIdentifier</key>
+	<string>local.wlan.dns.adguard</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>38C1B8C2-39DB-4826-9EE7-22FB97F398C2</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
